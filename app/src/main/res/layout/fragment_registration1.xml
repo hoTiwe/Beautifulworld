@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentRegistration1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="60sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/caveat_regular"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:textColor="@color/lighter"
+            android:fontWeight="700"
+            android:text="@string/what_is_your_name"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/inputName"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="25dp"
+            android:hint="Гаденыш"
+            android:imeOptions="actionDone"
+            android:inputType="textCapSentences"
+            android:maxLength="15"
+            android:maxLines="1"
+            android:textColor="@color/lighter"
+            android:textColorHint="@color/grey" />
+
+        <Button
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/light_blue"
+            android:onClick="goToSecondFragment"
+            android:textColor="@color/white"
+            android:text="Далее"/>
+    </LinearLayout>
+
+</FrameLayout>

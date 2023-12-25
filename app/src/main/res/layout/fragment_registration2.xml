@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentRegistration2">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+
+            android:gravity="center"
+            android:fontFamily="@font/caveat_regular"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/enter_phone_number"
+            android:textColor="@color/lighter"
+            android:textSize="45sp"
+            />
+
+        <EditText
+            android:id="@+id/inputPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="30dp"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:maxLength="11"
+            android:imeOptions="actionDone"
+            android:hint="89995533553"
+            android:textColor="@color/lighter"
+            android:textColorHint="@color/grey"
+            android:layout_height="65dp" />
+
+        <Button
+            android:layout_marginTop="25dp"
+            android:background="@color/light_blue"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="goToThirdFragment"
+            android:text="Далее"/>
+    </LinearLayout>
+
+</FrameLayout>

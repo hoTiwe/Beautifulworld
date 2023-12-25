@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentRegistration3">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontWeight="700"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:fontFamily="@font/caveat_regular"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/drop_me_nudes"
+            android:textColor="@color/lighter"
+            android:textSize="50sp"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/selectedImage"
+            android:layout_width="100dp"
+            android:visibility="gone"
+            android:layout_height="100dp"/>
+        <Button
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/primary"
+            android:textColor="@color/white"
+            android:text="Отдаться"
+            android:onClick="selectImage"/>
+        <Button
+            android:id="@+id/upload"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/light_blue"
+            android:textColor="@color/white"
+            android:onClick="getPermission"
+            android:text="Интернет не анонимен"/>
+    </LinearLayout>
+
+</FrameLayout>

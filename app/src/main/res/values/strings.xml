@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Beautiful world</string>
+    <string name="what_is_your_name">Представься</string>
+    <string name="drop_permission">Только дай знать\nгде ты находишься...</string>
+
+    <string name="enter_phone_number">А теперь введи свой номерок</string>
+    <string name="drop_me_nudes">Поделись свой\nфотокарточкой</string>
+
+
+</resources>

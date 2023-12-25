@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "596250743426",
+    "project_id": "beautiful-world-387012",
+    "storage_bucket": "beautiful-world-387012.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596250743426:android:d8549175174b68b4a6da9b",
+        "android_client_info": {
+          "package_name": "com.example.beautifulworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596250743426-oj8pf7kcs2d21oqqjf1os9091pr3bkh9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.beautifulworld",
+            "certificate_hash": "0dd0a381c958070a7e03b7d5fa1f494e34e477bf"
+          }
+        },
+        {
+          "client_id": "596250743426-ikfpipbd9ok1hf6gllp21cj44ns7ldnn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmkiDSqfcVqxCKGRNiiQtc4nbUyKC4E1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596250743426-ikfpipbd9ok1hf6gllp21cj44ns7ldnn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
